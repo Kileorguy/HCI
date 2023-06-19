@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="concertDetail.css">
+  <!-- <link rel="stylesheet" href="Home.css"> -->
+  <link rel="stylesheet" href="EoHome.css">
+  <script src="index.js" defer></script>
+  <script src="concertDetail.js" defer></script>
+</head>
+<body>
+  <nav>
+    <label>
+      <input type="checkbox" id = "check">
+      <div class="toggle" id = "toggle">
+        <span class="top_line common"></span>
+        <span class="middle_line common"></span>
+        <span class="bottom_line common"></span>
+      </div>
+      <div class="slide" id = "slide">
+        <ul>
+          <li><a href="EoHome.html"><i class='fas fa-compact-disc'></i>Home</a></li>
+          <li><a href="#"><i class='fas fa-music'></i>Music</a></li>
+          <li><a href="#"><i class='far fa-calendar-alt'></i>Upcoming event</a></li>
+          <li><a href="#"><i class='fas fa-heart'></i>Following</a></li>
+          <li><a href="#"><i class='fas fa-sign-out'></i>Logout</a></li>
+        </ul>
+      </div>
+    </label>
+    <h1 class="Logo">ConcertHub</h1>
+    <div id = "notif-icon">
+      <img src="assets/bell.png" alt="">
+      <div class = "notif-hover">
+        Notification
+      </div>
+    </div>
+    <div class = "make-event-button">
+      <h1 id = "make-event">Make an Event</h1>
+    </div>
+    <img src="./assets/user.png" alt="user" class="user-img">
+  </nav>
+<div class = "event-banner">
+  <img src="assets/gantengFest.png" alt="" id = "event-background">
+  <div class = "event-banner-detail">
+      <img src="assets/gantengFest.png" alt="">
+      <div class = "event-banner-text">
+        <h1>GantengFest</h1>
+        <p>Festival musik khusus orang ganteng yang keren dan mantap. Yang dateng harus ganteng.</p>
+      </div>
+  </div>
+</div>
+    
+<div class = "event-control">
+  <button id = "edit-button">Edit</button>
+  <button id = "cancel-concert">Cancel Concert</button>
+</div>
+<div class = "event-detail">
+  <h1>Additional Information</h1>
+  <div class = "event-detail-line">
+    <div class = "event-location">
+      <h1>Location</h1>
+      <h2>PM. Kamu Hebat 1</h2>
+    </div>
+    <div class = "event-tickets">
+      <h1>Tickets Left</h1>
+      <h2>12 Tickets Left</h2>
+    </div>
+  </div>
+  <div class = "event-detail-line">
+    <div class = "event-price">
+      <h1>Price</h1>
+      <h2>IDR 1.200.000</h2>
+    </div>
+    <div class = "event-date">
+      <h1>Date</h1>
+      <h2>9 Juni 2023, 15.00</h2>
+    </div>
+  </div>
+</div>
+
+<div class = "footer">
+  <div class = "about-us">
+    <h1>About Us</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat quis, accusamus ducimus minima soluta iste est neque, odio sed dignissimos officia repudiandae veritatis iusto corrupti culpa debitis laborum recusandae accusantium!</p>
+  </div>
+  <div class = "site-links">
+    <h1>Site Links</h1>
+  </div>
+  <div class = "contact-us-at">
+    <h1>Contact Us At</h1>
+    <div class = "email"></div>
+    <div class = "instagram"></div>
+    <div class = "youtube"></div>
+    <div class = "twitter"></div>
+  </div>
+</div>
+</body>
+</html>
