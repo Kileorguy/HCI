@@ -19,7 +19,6 @@ function register(){
     let usernameVal = username.value
     let emailVal = email.value
     let passVal = pass.value
-
     if(!checkUser.checked && !EventOrg.checked){
         setError("Radio button must be filled!")
         return
@@ -41,5 +40,14 @@ function register(){
         setError("Password must be filled!")
         return
     }
-    window.location.assign('Login.html')
+    if(checkUser.checked){
+        localStorage.setItem('role',0)
+    }else{
+        localStorage.setItem('role',1)
+    }
+    localStorage.setItem('username',usernameVal)
+    localStorage.setItem('email',emailVal)
+    localStorage.setItem('pass',passVal)
+
+    // window.location.assign('Login.html')
 }
