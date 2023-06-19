@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Concert</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Nav Bar (Buat dicopas tiap page) -->
+  <nav>
+    <label>
+      <input type="checkbox" class="check">
+        <div class="toggle">
+          <span class="top_line common"></span>
+          <span class="middle_line common"></span>
+          <span class="bottom_line common"></span>
+        </div>
+        <div class="slide">
+        <ul>
+          <li><a href="./Home.html"><i class='fas fa-compact-disc'></i>Home</a></li>
+          <li><a href="./Music.html"><i class='fas fa-music'></i>Visited</a></li>
+          <li><a href="./UpcomingEvent.html"><i class='far fa-calendar-alt'></i>Upcoming event</a></li>
+          <p style="color: white;">Browse</p>
+          <li><a href="./Following.html"><i class='fas fa-heart'></i>Following</a></li>
+          <li><a href="./Logout.html"><i class='fas fa-sign-out'></i>Logout</a></li>
+        </ul>
+        </div>
+    </label>
+    <h1 class="Logo">ConcertHub</h1>
+    <img src="./assets/user.png" alt="user" class="user-img">
+  </nav>
+  <!-- End Nav Bar -->
+  
+  <br>
+
+  <div class="bg-image">
+    <div class="blur">
+      <img src="./assets/background.jpg" alt="">
+    </div>
+    <div class="buyticket">
+      <label for="ticketQuantity">Ticket Quantity:</label>
+      <input type="number" id="ticketQuantity" class="quantity" min = 1>
+    </div>
+    <div class="container">
+      <button type="submit" class="btn" onclick="openPopup()">Book Now</button>
+      <div class="popup" id="popup">
+        <img src="./assets/404-tick.png">
+        <h2>Thank You!</h2>
+        <p>Successfully Bought The Ticket</p>
+        <button type="button" onclick="closePopup()">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="contain">
+      <div class="row">
+        <div class="footer-col">
+          <h4>About Us</h4>
+          <p>loasdasd as dsdasasdasd a<br>sdasdasdad asdasd as da s d<br>ada sda sdasda sdasda d a s<br>dsa asd asdas dasd asd adsd</p>
+        </div>
+        <div class="footer-col">
+          <h4>Site Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Visited</a></li>
+            <li><a href="#">Upcoming Event</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="social-links">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+  
+  <link rel="stylesheet" href="BookingConcert.css">
+  <script src="BookingConcert.js"></script>
+</body>
+</html>
