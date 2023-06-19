@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+body{
+  background-color: #000;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.ConcertPoster{
+    margin-left: 2px;
+    padding: 100px;
+}
+  
+.ConcertPoster img{
+    width: 100%;
+    height: 100%;
+}
+
+.ConcertPoster h1{
+    margin: 50px;
+    padding: 50px;
+}
+
+.Artist{
+    margin-top: -150px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Artist h1{
+    text-align: center;
+    text-decoration: none;
+}
+
+.Akane{
+    margin-left: 300px;
+}
+
+.Akane b{
+    color: blue;
+}
+
+.Ruby{
+    margin-left: 200px;
+}
+
+.Ruby b{
+    color: yellow;
+}
+
+.Kana{
+    margin-left: 200px;
+}
+
+.Kana b{
+    color: red;
+}
