@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    font-size: 20px;
+}
+body{
+    background-color: black;
+}
+.mainDiv{
+    display: flex;
+}
+
+#music{
+    margin: 0;
+    height: 99.636vh;
+}
+.left{
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+}
+#wave{
+    /* position: absolute; */
+    width: 1325px;
+    height: 240px;
+    align-self: flex-end;
+}
+
+.form{
+    padding-top: 50px;
+    /* width: 50vw; */
+    left : 962.5px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.input input{
+    min-width: 504px;
+    min-height: 20px;
+}
+form{
+    gap: 20px;
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1{
+    font-size: 64px;
+}
+p{
+    font-size: 20px;
+}
+
+.checkBox{
+    width: 15px;
+    height: 15px;
+}
+
+#button{
+    background-color: #9747FF;
+    color: white;
+    font-size: 34px;
+    height: 86px;
+    width: 482px;
+    left: 44px;
+    top: 465px;
+    border-radius: 15px;
+
+}
+
+a{
+    color: white;
+}
+
+#error{
+    align-self: center;
+}

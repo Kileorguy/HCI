@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Register.css'>
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="right">
+            <img id="music" src="./assets/Home/Musicwall.png" alt="">
+        </div>
+        <div class="left">
+            
+            <div class="form">
+                <form id="formOuter" action="">
+                    <h1 style="color: white;">Register</h1>
+                    <p>Register as a</p>
+                    <div class="check">
+                        <input class="checkBox" id="checkUser" type="radio" name="group" > User
+                        <input class="checkBox" id="EventOrg" type="radio"  name="group"> Event Organizer
+                    </div>
+                    <div class="input">
+                        <p>Username</p>
+                        <input id="username" type="text">
+                        <p>Email</p>
+                        <input id="email" type="email">
+                        <p>Password</p>
+                        <input id="pass" type="password">
+                    </div>
+                    <p id="error" style="color: red;"></p>
+                    
+                    <img src="./assets/Home/DragDrop.png" alt="">
+                    <input id="button" type="submit" value="Register"> 
+                    <!-- <input type="submit"> -->
+                    <a href="./Login.html">Already Have an Account? Login Here</a>
+                </form>
+                
+            </div>
+            <img id="wave" src="./assets/Home/Wave.png" alt=""> 
+        </div>
+    </div>
+    
+    
+    <script src='Register.js'></script>
+</body>
+</html>

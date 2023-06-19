@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Login.css'>
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="left">
+            <div class="form">
+                <form id="formOuter" action="">
+                    <h1 style="color: white;">Log in</h1>
+                    <p>Log in as a</p>
+                    <div class="check">
+                        <input class="checkBox" id="checkUser" type="radio" name="group" > User
+                        <input class="checkBox" id="EventOrg" type="radio"  name="group"> Event Organizer
+                    </div>
+                    <div class="input">
+                        <p>Email</p>
+                        <input id="email" type="email">
+                        <p>Password</p>
+                        <input id="pass" type="password">
+                        <p id="error" style="color: red;"></p>
+                    </div>
+                    <!-- <img src="./assets/Home/DragDrop.png" alt=""> -->
+                    <input id="button" type="submit" value="Login"> 
+                    <a href="./Register.html">Don’t have any account? create a new one here</a>
+                </form>
+                
+            </div>
+            <img id="wave"  src="./assets/Home/Wave.png" alt="">
+            
+        </div>
+        <div class="right">
+            <img id="music" src="./assets/Home/Musicwall.png" alt="">
+        </div>
+    </div>
+    <script src='Login.js'></script>
+</body>
+</html>
