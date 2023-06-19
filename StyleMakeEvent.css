@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+body{
+  background-color: #000;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+header{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+header img{
+    margin-left: 50px;
+    height: 40px;
+    width: 40px;
+}
+
+header h1{
+    margin-left: 30px;
+}
+
+.AddPoster img{
+    padding-top: 3%;
+    padding-left: 11%;
+    margin-left: 11%;
+}
+
+.Editing{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+
+.Left, .Right{
+    padding-top: 30px;
+    width: 50%;
+}
+
+.Left img{
+    padding-left: 425px;
+}
+
+.Right img{
+    margin-top: -10px;
+}
+
+.EditName, .EditLocation, .EditPrice, .EditDate, .EditIdol, .EditCapacity{
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    color: white;
+    padding-left: 20px;
+}
+
+.EditName h1{
+    padding-top: 10px;
+}
+
+.EditLocation h1{
+    padding-top: 10px;
+}
+
+.NameEdit input{
+    margin-left: 425px;
+    margin-top: 15px;
+    width: 50%;
+    font-size: 150%;
+}
+
+.LocationEdit input{
+    margin-left: 5px;
+    margin-top: 14px;
+    font-size: 150%;
+    width: 50%;
+}
+
+.DateEdit input{
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 150%;
+    width: 50%;
+}
+
+.PriceEdit input{
+    margin-left: 425px;
+    margin-top: 15px;
+    width: 50%;
+    font-size: 150%;
+}
+
+.IdolEdit select{
+    margin-left: 425px;
+    margin-top: 15px;
+    width: 50%;
+    font-size: 150%;
+}
+
+option{
+    color: black;
+}
+
+.EditDate img{
+    margin-top: -20px;
+    width: 60px;
+    height: 60px;
+}
+
+.EditCapacity img{
+    margin-top: -10px;
+    width: 50px;
+    height: 50px;
+}
+
+.CapacityEdit input{
+    margin-left: 5px;
+    margin-top: 23px;
+    font-size: 150%;
+    width: 50%;
+}
+
+.Description{
+    margin-top: 150px;
+    margin-left: 400px;
+}
+
+.Inside{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+textarea{
+    border-radius: 1%;
+}
+
+.Submit{
+    margin-top: 150px;
+    margin-left: 1050px;
+}
+
+button{
+    width: 20vw;
+    font-size: 200%;
+    background-color: #9a0000;
+    color: white;
+    border-color: #9a0000;
+    border-radius: 10px;
+}
