@@ -145,8 +145,8 @@ nav{
   position: absolute;
   border-radius: 50px;
   right: 20px;
-  /* transform: translateY(-50%); */
 }
+<<<<<<< HEAD
 /* Nav End */
 
 
@@ -398,3 +398,7 @@ nav{
   color: #24262b;
   background-color: #fff;
 }
+=======
+
+/* Nav End */
+>>>>>>> 98f27cf153dc9b6d3612a6723bdf0a305792a9a0
