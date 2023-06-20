@@ -25,8 +25,18 @@ h1{
     position: relative;
 }
 
+form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 16%;
+  row-gap: 7vh;
+  width: 68%;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
 #file-upload{
-    margin-left: 16%;
+    width: 100%;
     cursor: pointer;
 }
 
@@ -49,4 +59,129 @@ h1{
 .title img{
     width: 40px;
     height: 40px;
+}
+
+
+form .submit{
+  margin-bottom: 10%;
+  margin-top: 3%;
+  display: flex;
+  width: 100%;
+  height: 8vh;
+  justify-content: end;
+}
+
+button{
+  border-color: #9a0000;
+  border-radius: 10px;
+  width: 20vw;
+  font-size: 22px;
+  background-color: #9a0000;
+  color: white;
+  height: 8vh;
+}
+
+.contain{
+  max-width: 1170px;
+  margin: auto;
+}
+  
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#location-label, #name-label{
+  display: flex;
+  align-items: center;
+  column-gap: 2%;
+
+}
+
+#location-label img, #name-label img{
+    width: 30px;
+    height: 30px;
+}
+
+#name, #location{
+  padding: 2%;
+  font-size: 20px;
+  height: 6vh;
+  border-radius: 10PX;
+}
+  /* footer */
+.footer{
+  background-color: #2E2E2E;
+  padding: 70px 0;
+}
+  
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+  
+.footer-col h4{
+  font-size: 18px;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col p{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 300;
+    display: block;
+}
+  
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+  
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+  
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbb;
+  display: block;
+  transition: all 0.3 ease;
+}
+  
+.footer-col ul li a:hover{
+  color: #fff;
+  padding-left: 8px;
+}
+
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 355, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #fff;
 }
