@@ -37,6 +37,5 @@ function register(){
         window.location.assign('Home.html')
     }else{
         setError("Invalid Credential!")
-
     }
 }
