@@ -183,7 +183,7 @@ body{
     flex-direction: row;
 }
 
-.Artist h1{
+.Artist h1, .Artist a{
     text-align: center;
     text-decoration: none;
 }
