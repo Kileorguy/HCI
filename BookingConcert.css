@@ -38,10 +38,6 @@ h1{
   pointer-events: none;
 }
 
-li{
-  list-style: none;
-}
-
 .slide ul li a{
   color: #fff;
   font-weight: lighter;
@@ -331,5 +327,9 @@ label{
 .footer-col .social-links a:hover{
   color: #24262b;
   background-color: #fff;
+}
+
+li{
+  list-style: none;
 }
 /* footer end */

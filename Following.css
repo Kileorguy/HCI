@@ -264,3 +264,7 @@ nav{
     color: #24262b;
     background-color: #fff;
   }
+
+  li{
+    list-style: none;
+  }
