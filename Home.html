@@ -6,6 +6,7 @@
   <title>Home Page</title>
   <!-- Ini juga penting harus dicopas -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
   <!-- Nav Bar (Buat dicopas tiap page) -->
@@ -29,6 +30,12 @@
       </div>
     </label>
     <h1 class="Logo">ConcertHub</h1>
+    <div id = "notif-icon">
+      <img src="assets/bell.png" alt="">
+      <div class = "notif-hover">
+        Notification
+      </div>
+    </div>
     <img src="./assets/user.png" alt="user" class="user-img">
   </nav>
   <!-- End Nav Bar -->
@@ -37,11 +44,7 @@
   <div class="wrapper">
     <i id = "kiri" class="fa-solid fa-angle-left"></i>
     <div class="carausel">
-<<<<<<< HEAD
-      <img onclick="window.location.href = 'UpcomingEvent.html';" src="./assets/Tetap semangat.png" alt="">
-=======
       <img  onclick="window.location.href = 'UpcomingEvent.html';" src="./assets/Tetap semangat.png" alt="">
->>>>>>> d02585badb05de73207371188a3654b21611496c
       <img src="./assets/TulusBanner.jpeg" alt="">
       <img src="./assets/NewJeansBanner.jpg" alt="">
       <img src="./assets/TulusBanner.jpeg" alt="">
@@ -139,6 +142,7 @@
     </div>
   </footer>
   <link rel="stylesheet" href="Home.css">
+  <link rel="stylesheet" href="notification.css">
   <script src="Home.js"></script>
 </body>
 </html>
