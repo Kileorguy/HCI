@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Event</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body onload="countdown()">
+  <nav>
+    <label>
+      <input type="checkbox" id = "check">
+      <div class="toggle">
+        <span class="top_line common"></span>
+        <span class="middle_line common"></span>
+        <span class="bottom_line common"></span>
+      </div>
+      <div class="slide">
+        <ul>
+          <li><a href="./Home.html"><i class='fas fa-compact-disc'></i>Home</a></li>
+          <li><a href="./LastVisited.html"><i class='fas fa-music'></i>Visited</a></li>
+          <li><a href="./UpcomingEvent.html"><i class='far fa-calendar-alt'></i>Upcoming event</a></li>
+          <p style="color: white;">Browse</p>
+          <li><a href="./Following.html"><i class='fas fa-heart'></i>Following</a></li>
+          <li><a href="./Logout.html"><i class='fas fa-sign-out'></i>Logout</a></li>
+        </ul>
+      </div>
+    </label>
+    <h1 class="Logo">ConcertHub</h1>
+    <img src="./assets/user.png" alt="user" class="user-img">
+  </nav>
+
+  <h2>Your Upcoming Concert</h2>
+
+  <div class="bg-image">
+    <div class="banner">
+      <img src="./assets/Tetap semangat.png" alt="">
+    </div>
+  </div>
+  
+  <p class="target">June 30, 2030 00:00:00</p>
+
+  <section>
+    <p id="countdown"></p>
+  </section>
+
+  <p>Concert Information ></p>
+
+  <div class="information">
+    <div class="image-container">
+      <img src="./assets/NearestRestArea.jpg" alt="Image 1" class="image">
+      <figcaption class="caption">Nearest Rest Area</figcaption>
+    </div>
+    <div class="image-container">
+      <img src="./assets/oshi-no-ko.png" alt="Image 2" class="image">
+      <figcaption class="caption">Performer</figcaption>
+    </div>
+    <div class="image-container">
+      <img src="./assets/SimiliarEvent.jpg" alt="Image 3" class="image">
+      <figcaption class="caption">Similar Event</figcaption>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="contain">
+      <div class="row">
+        <div class="footer-col">
+          <h4>About Us</h4>
+          <p>loasdasd as dsdasasdasd a<br>sdasdasdad asdasd as da s d<br>ada sda sdasda sdasda d a s<br>dsa asd asdas dasd asd adsd</p>
+        </div>
+        <div class="footer-col">
+          <h4>Site Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Visited</a></li>
+            <li><a href="#">Upcoming Event</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="social-links">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <link rel="stylesheet" href="UpcomingEvent.css">
+  <script src="UpcomingEvent.js"></script>
+</body>
+</html>
