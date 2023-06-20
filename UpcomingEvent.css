@@ -154,7 +154,7 @@ nav{
   margin-top: 30px;
   padding-left: 120px;
   margin-left: 80px;
-  width: 30%;
+  width: 40%;
   border: white 1px solid;
 }
 
@@ -207,20 +207,25 @@ h2{
 
 .information{
   display: flex;
+  justify-content: center;
   flex-direction: row;
-  margin-top: 50px;
+  margin-top: 100px;
+  column-gap: 2%;
 }
 
+.information div{
+  width: 30%;
+}
 
 .information img{
   border-radius: 10px;
-  width: 80%;
-  max-height: 400px;
+  width: 350px;
+  height: 350px;
   object-fit: cover;
 }
 
 .NearImage img{
-  margin-left: 80px;
+  margin-left: 30px;
 }
 
 .NearImage figcaption{
@@ -231,23 +236,24 @@ h2{
 
 .PerformerImage img{
   margin-left: 30px;
-  height: 370px;
 }
 
 .PerformerImage figcaption{
-  margin-top: 10px;
-  margin-left: 250px;
+  margin-top: 20px;
+  /* margin-left: 250px; */
   font-size: 150%;
+  text-align: center;
 }
 
 .SimilarImage img{
-  height: 370px;
+  margin-left: 30px;
 }
 
 .SimilarImage figcaption{
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 150%;
-  margin-left: 120px;
+  /* margin-left: 120px; */
+  text-align: center;
 }
 
 .caption {
