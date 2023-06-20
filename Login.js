@@ -28,13 +28,23 @@ function register(){
     let passCheck = localStorage.getItem('pass')
     let roleCheck = localStorage.getItem('role')
     if(emailVal===emailCheck && passCheck === passVal&&roleCheck==checkVal){
-        window.location.assign('Home.html')
+        localStorage.setItem('role',checkVal)
+        if (checkVal == 1){
+            window.location.assign('EoHome.html')
+        }else{
+            window.location.assign('Home.html')
+        }
     }else{
         setError("Invalid Credential!")
     }
 
     if(emailVal==='dion@email.com' && passVal === 'dion'){
-        window.location.assign('Home.html')
+        localStorage.setItem('role',checkVal)
+        if (checkVal == 1){
+            window.location.assign('EoHome.html')
+        }else{
+            window.location.assign('Home.html')
+        }
     }else{
         setError("Invalid Credential!")
 
