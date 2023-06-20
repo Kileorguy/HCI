@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Profile.css'>
+</head>
+<body>
+    <img class="wave" src="./assets/Home/Wave.png" alt="">
+    <nav>
+        <a href="./Home.html" class="">
+            <img src="./assets/Profile/🦆 icon _arrow left_.png" alt="">
+
+        </a>
+        <p style="color: white;">Your Profile</p>
+    </nav>
+    
+    
+
+    <div class="center_content">
+        <div class="cont">
+            <img src="./assets/Profile/Group 16.png" alt="">
+            <p>Edit Profile Picture</p>
+        </div>
+    </div>
+
+    <div class="bottom">
+        
+        <p id="about">About you</p>
+        <div class="inner">
+            <div class="left">
+                <div class="down">
+                    <p>Username</p>
+                    <p class="white" id="user"></p>
+                    <p>Email</p>
+                    <p class="white" id="email"></p>
+                </div>
+            </div>
+            <div class="right">
+                <p>Your ID Card Photo</p>
+                <div id="empty"></div>
+            </div>
+        </div>
+        <p id="about">Change Password</p>
+        <div class="inner">
+            <div class="right">
+                <!-- <div class="down"> -->
+                    <p>New Password</p>
+                    <input type="password" class="white" id="pass"></input>
+                    <!-- </div> -->
+                    
+            </div>
+            <div class="right">
+                <p>Confirm Password</p>
+                <input type="password" class="white" id="passCheck"></input >
+                <!-- <p>Your ID Card Photo</p> -->
+                <!-- <div id="empty"></div> -->
+            </div>
+        </div>
+    </div>
+    <div class="btn">
+        <button onclick="checkPassword()">Change Password</button>
+    </div>
+
+    <script src='Profile.js'></script>
+</body>
+</html>
