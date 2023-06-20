@@ -18,11 +18,57 @@
             <h1>Edit Event</h1>
         </div>
     </div>  
-    <form action="">
+    <form action="" onsubmit="">
         <label for="file">
             <img src="assets/EditConcert/fileUpload.png" alt="" id = "file-upload">
         </label>
         <input id = "file" type="file">
+        <label for="name" id = "name-label">
+            <img src="assets/MakeEvent/EventName.png" alt="">
+            <h1>Event Name</h1>
+        </label>
+        <input type="text" id = "name">
+        <label for="location" id = "location-label">
+            <img src="assets/MakeEvent/EventLocation.png" alt="">
+            <h1>Event Location</h1>
+        </label>
+        <input type="text" id = "location">
+        <label for="desc">
+            <h1>Event Description</h1>
+        </label>
+        <textarea name="" id="desc" cols="30" rows="20" style = "border-radius: 10px;   padding: 2%;
+        font-size: 20px;"></textarea>
+            <div class = "submit"> 
+                <button type = "submit">
+                    Submit
+                </button>
+            </div>
     </form>
+    <footer class="footer">
+        <div class="contain">
+          <div class="row">
+            <div class="footer-col">
+              <h4>About Us</h4>
+              <p>loasdasd as dsdasasdasd a<br>sdasdasdad asdasd as da s d<br>ada sda sdasda sdasda d a s<br>dsa asd asdas dasd asd adsd</p>
+            </div>
+            <div class="footer-col">
+              <h4>Site Links</h4>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Visited</a></li>
+                <li><a href="#">Upcoming Event</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Contact Us</h4>
+              <div class="social-links">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>
