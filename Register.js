@@ -49,5 +49,5 @@ function register(){
     localStorage.setItem('email',emailVal)
     localStorage.setItem('pass',passVal)
 
-    // window.location.assign('Login.html')
+    window.location.assign('Login.html')
 }
