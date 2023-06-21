@@ -1,20 +1,52 @@
 .Hana1 h1{
-    margin-top: 70px;
-    margin-left: 200px;
+    /* margin-top: 70px;*/
+    /* margin-left: 200px;  */
     font-size: 400%;
 }
 
 .Hana1{
+    margin-top: 70px;
     display: flex;
-    flex-direction: row;
     width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Hana1 div{
+    display: flex;
+    width: 50%;
+    align-items: center;
 }
 
 .Hana1 img{
-    margin-top: 55px;
+    /* margin-top: 55px; */
     margin-left: 30px;
-    height: 5%;
-    width: 5%;
+    height: 10%;
+    width: 10%;
+}
+
+.Hana1 button{
+    background-color: #9A0000;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-width: 0px;
+    border-radius: 15px;
+    justify-content: center;
+    width: 20%;
+    transition: 0.4s ease-in-out;
+}
+
+.Hana1 button img{
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+
+#follow-text{
+    font-size: 24px;
 }
 
 .Hana2{
