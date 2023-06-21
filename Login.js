@@ -29,6 +29,7 @@ function register(){
     let roleCheck = localStorage.getItem('role')
     if(emailVal===emailCheck && passCheck === passVal&&roleCheck==checkVal){
         localStorage.setItem('role',checkVal)
+        localStorage.setItem('login',localStorage.getItem('username'))
         if (checkVal == 1){
             window.location.assign('EoHome.html')
         }else{
@@ -40,6 +41,7 @@ function register(){
 
     if(emailVal==='dion@email.com' && passVal === 'dion'){
         localStorage.setItem('role',checkVal)
+        localStorage.setItem('login','dion')
         if (checkVal == 1){
             window.location.assign('EoHome.html')
         }else{

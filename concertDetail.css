@@ -140,16 +140,6 @@
     text-decoration: none;
 }
 
-
-.make-event-button:hover #make-event{
-  color: #000;
-
-}
-
-#notif-icon:hover{
-  background-color: rgb(71, 71, 71);
-}
-
 #notif-icon:hover .notif-hover{
   display: block;
 }

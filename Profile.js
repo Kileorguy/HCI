@@ -13,3 +13,12 @@ function checkPassword(){
         location.reload(true)
     }
 }
+
+let back = document.getElementById('back')
+back.addEventListener('click',()=>{
+    if (localStorage.getItem('role') == 1){
+        window.location.assign('EoHome.html')
+    }else{
+        window.location.assign('Home.html')
+    }
+})
